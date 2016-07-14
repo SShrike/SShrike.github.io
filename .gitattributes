@@ -1,2 +1,0 @@
-favicon.png filter=lfs diff=lfs merge=lfs -text
-touch-icon-144-precomposed.png filter=lfs diff=lfs merge=lfs -text
