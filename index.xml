@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shrike&#39;s Blog</title>
+    <link>https://shrike.me/</link>
+    <description>Recent content on Shrike&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-nz</language>
+    <lastBuildDate>Fri, 15 Jul 2016 10:32:47 +1200</lastBuildDate>
+    <atom:link href="https://shrike.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About Me</title>
+      <link>https://shrike.me/about/</link>
+      <pubDate>Fri, 15 Jul 2016 10:32:47 +1200</pubDate>
+      
+      <guid>https://shrike.me/about/</guid>
+      <description>
+
+&lt;p&gt;The languages I tend to work with on a regular basis are Python and Rust. Some
+other languages I enjoy but haven&amp;rsquo;t found a day-to-day use for yet are Haskell,
+Elixir, Erlang, and Elm.&lt;/p&gt;
+
+&lt;p&gt;My main interests are communications, developer tooling, systems programming,
+and whatever else happens to pique my interests.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m typically known around the Internet as Shrike, SShrike, or just &lt;em&gt;Severen&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Check out my &lt;a href=&#34;https://github.com/SShrike&#34;&gt;GitHub page&lt;/a&gt; if you want to check out
+what I&amp;rsquo;ve been up to recently.&lt;/p&gt;
+
+&lt;h1 id=&#34;contact&#34;&gt;Contact&lt;/h1&gt;
+
+&lt;h2 id=&#34;email&#34;&gt;Email&lt;/h2&gt;
+
+&lt;p&gt;Email me at severen@shrike.me &lt;em&gt;or&lt;/em&gt; severen.redwood@gmail.com (both
+resolve to the same inbox).&lt;/p&gt;
+
+&lt;h2 id=&#34;matrix&#34;&gt;Matrix&lt;/h2&gt;
+
+&lt;p&gt;You can find me on &lt;a href=&#34;https://matrix.org/&#34;&gt;Matrix&lt;/a&gt; as &lt;strong&gt;#Shrike:matrix.org&lt;/strong&gt;, this
+is typically the fatest and preferred way to reach me. You can login as a guest
+user with the &lt;a href=&#34;https://vector.im/&#34;&gt;Vector web client&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;twitter&#34;&gt;Twitter&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;m known as &lt;a href=&#34;https://twitter.com/SShrike&#34;&gt;@SShrike&lt;/a&gt; on Twitter. If you DM me or
+send me a tweet I&amp;rsquo;ll probably see it, as the damn fucking thing always spams
+notifications on my phone.&lt;/p&gt;
+
+&lt;h1 id=&#34;cryptography&#34;&gt;Cryptography&lt;/h1&gt;
+
+&lt;p&gt;Use the following profiles to identify my identity on social media, etc.:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://keybase.io/sshrike&#34;&gt;Keybase Profile&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://onename.com/shrike&#34;&gt;OneName Profile&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My GPG public key is available &lt;a href=&#34;https://keybase.io/SShrike/key.asc&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>https://shrike.me/license/</link>
+      <pubDate>Fri, 15 Jul 2016 10:26:29 +1200</pubDate>
+      
+      <guid>https://shrike.me/license/</guid>
+      <description>
+
+&lt;h3 id=&#34;content-license&#34;&gt;Content License&lt;/h3&gt;
+
+&lt;p&gt;All non-code blog content is licensed under
+&lt;a href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons BY-NC-SA&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;code-license&#34;&gt;Code License&lt;/h3&gt;
+
+&lt;p&gt;All source code files and snippets found on this blog, unless otherwise
+explicitly noted, are licensed under the &lt;a href=&#34;http://unlicense.org/&#34;&gt;Unlicense&lt;/a&gt;. In
+other words, this means do whatever the fuck you want with it!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Welcome</title>
+      <link>https://shrike.me/blog/2016/07/15/welcome/</link>
+      <pubDate>Fri, 15 Jul 2016 10:16:00 +1200</pubDate>
+      
+      <guid>https://shrike.me/blog/2016/07/15/welcome/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Hello world!&amp;rdquo; I suppose that&amp;rsquo;s how you&amp;rsquo;re supposed to open the first post on a
+programmer&amp;rsquo;s blog right?&lt;/p&gt;
+
+&lt;p&gt;If that wasn&amp;rsquo;t enough, here&amp;rsquo;s hello world in some other languages (okay, I&amp;rsquo;ll
+admit it, this is just me testing things now):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;// C
+#include &amp;lt;stdio.h&amp;gt;
+
+int main(int argc, char const *argv[]) {
+  printf(&amp;quot;Hello world!\n&amp;quot;);
+  return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-rust&#34;&gt;// Rust
+fn main() {
+  println!(&amp;quot;Hello world!&amp;quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Python
+print(&#39;Hello world!&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-haskell&#34;&gt;-- Haskell
+main :: IO ()
+main = putStrLn &amp;quot;Hello world!&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
