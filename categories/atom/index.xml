@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Shrike&#39;s Blog</title>
-    <link>https://shrike.me/post/</link>
-    <description>Recent content in Posts on Shrike&#39;s Blog</description>
+    <title>Atom on Shrike&#39;s Blog</title>
+    <link>https://shrike.me/categories/atom/</link>
+    <description>Recent content in Atom on Shrike&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-nz</language>
     <lastBuildDate>Sun, 17 Jul 2016 03:32:29 +1200</lastBuildDate>
-    <atom:link href="https://shrike.me/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://shrike.me/categories/atom/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Some Atom Packages I Find Useful</title>
@@ -54,7 +54,7 @@ you type &lt;em&gt;or&lt;/em&gt; on each save. It adds a live collection of erro
 the window as well as indicators in the gutter and popups containing the error
 message when relevant code is selected.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../img/atom-linter.png&#34; alt=&#34;Linter Package&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../img/atom-linter.png&#34; alt=&#34;Linter Package&#34; /&gt;&lt;/p&gt;
 
 &lt;!-- Links for Linter --&gt;
 
@@ -69,7 +69,7 @@ it with extra features, such as
 &lt;a href=&#34;https://atom.io/packages/minimap-linter&#34;&gt;displaying linter information&lt;/a&gt;, and
 &lt;a href=&#34;https://atom.io/packages/minimap-git-diff&#34;&gt;displaying Git diff information&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../img/atom-minimap.png&#34; alt=&#34;Minimap Package&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../img/atom-minimap.png&#34; alt=&#34;Minimap Package&#34; /&gt;&lt;/p&gt;
 
 &lt;!-- Links for Minimap --&gt;
 
@@ -115,7 +115,7 @@ it manages your projects. Usage is fairly simple: open the command palette and
 search for &amp;ldquo;project manager&amp;rdquo;; from there you can save, edit, and list projects
 like you would expect.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../img/atom-project-manager.png&#34; alt=&#34;Project Manager Package&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../img/atom-project-manager.png&#34; alt=&#34;Project Manager Package&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The list of projects are stored in a simple CSON file called &lt;code&gt;projects.cson&lt;/code&gt;
 under &lt;code&gt;~/.atom&lt;/code&gt; which looks like this:&lt;/p&gt;
@@ -145,47 +145,9 @@ tutil:
 finds all &amp;ldquo;TODO&amp;rdquo;, &amp;ldquo;FIXME&amp;rdquo;, etc. comments in the currently open project and
 displays them in an overview list.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../img/atom-todo-show.png&#34; alt=&#34;Todo Show Package&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../img/atom-todo-show.png&#34; alt=&#34;Todo Show Package&#34; /&gt;&lt;/p&gt;
 
 &lt;!-- Links for Todo Show --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Welcome</title>
-      <link>https://shrike.me/blog/2016/07/15/welcome/</link>
-      <pubDate>Fri, 15 Jul 2016 10:16:00 +1200</pubDate>
-      
-      <guid>https://shrike.me/blog/2016/07/15/welcome/</guid>
-      <description>&lt;p&gt;&amp;ldquo;Hello world!&amp;rdquo; I suppose that&amp;rsquo;s how you&amp;rsquo;re supposed to open the first post on a
-programmer&amp;rsquo;s blog right?&lt;/p&gt;
-
-&lt;p&gt;If that wasn&amp;rsquo;t enough, here&amp;rsquo;s hello world in some other languages (okay, I&amp;rsquo;ll
-admit it, this is just me testing things now):&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;// C
-#include &amp;lt;stdio.h&amp;gt;
-
-int main(int argc, char const *argv[]) {
-  printf(&amp;quot;Hello world!\n&amp;quot;);
-  return 0;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-rust&#34;&gt;// Rust
-fn main() {
-  println!(&amp;quot;Hello world!&amp;quot;);
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Python
-print(&#39;Hello world!&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-haskell&#34;&gt;-- Haskell
-main :: IO ()
-main = putStrLn &amp;quot;Hello world!&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

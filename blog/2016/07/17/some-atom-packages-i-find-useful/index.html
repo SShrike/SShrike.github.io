@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Some Atom Packages I Find Useful &middot; Severen Redwood</title>
+
+  
+  <link rel="stylesheet" href="https://shrike.me/css/poole.css">
+  <link rel="stylesheet" href="https://shrike.me/css/hyde.css">
+  <link rel="stylesheet" href="https://shrike.me/css/poole-overrides.css">
+  <link rel="stylesheet" href="https://shrike.me/css/hyde-overrides.css">
+  <link rel="stylesheet" href="https://shrike.me/css/hyde-x.css">
+  <link rel="stylesheet" href="https://shrike.me/css/highlight/solarized_light.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://shrike.me/touch-icon-144-precomposed.png">
+  <link href="https://shrike.me/favicon.png" rel="icon">
+
+  
+  
+  
+  
+
+  <meta name="description" content="Some Atom packages that I&#39;ve found useful for programming.">
+  <meta name="keywords" content="editors,atom,atom-editor">
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66656915-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  
+</head>
+<body class="theme-base-08">
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      
+      <h1>Severen Redwood</h1>
+      <p class="lead">Just another software developer and gamer in an ocean of many.</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item"><a href="https://shrike.me/">Blog</a></li>
+      
+      <li class="sidebar-nav-item"><a href="https://shrike.me/about/">About Me</a></li>
+      
+    </ul>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+      <a href="https://github.com/SShrike"><i class="fa fa-github-square fa-3x"></i></a>
+      <a href="https://bitbucket.com/SShrike"><i class="fa fa-bitbucket-square fa-3x"></i></a>
+      
+      
+      
+      
+      <a href="https://twitter.com/SShrike"><i class="fa fa-twitter-square fa-3x"></i></a>
+      
+      
+      </li>
+    </ul>
+
+    
+
+    <p>Copyright &copy; 2016 <a href="https://shrike.me/license/">License</a><br/>
+       Powered by <a href="http://gohugo.io">Hugo</a> and <a href="https://github.com/zyro/hyde-x">Hyde-X</a></p>
+  </div>
+</div>
+
+
+<div class="content container">
+  <div class="post">
+    <h1 class="post-title">Some Atom Packages I Find Useful</h1>
+    <span class="post-date">Jul 17, 2016 &middot; 3 minute read &middot; <a href="https://shrike.me/blog/2016/07/17/some-atom-packages-i-find-useful/#disqus_thread">Comments</a>
+    
+    <br/>
+    <a class="label" href="https://shrike.me/categories/for-future-me">For Future Me</a><a class="label" href="https://shrike.me/categories/programming">Programming</a><a class="label" href="https://shrike.me/categories/atom">Atom</a>
+    </span>
+    
+
+<p>I&rsquo;ve switched back to using Atom after having switched to <a href="http://spacemacs.org/">Spacemacs</a> around six
+or eight months ago. Startup time — which was one of the factors that drove me
+away — has noticeably improved to the point where I don&rsquo;t find it annoying and
+the core text editing components have continued to mature.</p>
+
+<p>There are still some things I miss about Emacs/<a href="http://spacemacs.org/">Spacemacs</a> however, such as the
+mnemonic keybindings, <a href="essentially a Vim emulation layer for Emacs">evil</a>,
+<a href="although it is partially replaced by the command palette">which-key</a>, and the
+ability to run it in a terminal. Also, keymaps are still fairly painful to deal
+with, with packages often overriding keybindings from either Atom core or other
+packages. In addition to this, there also still does not seem to be any way to
+define keybindings that are context-aware, a feature which would be useful for
+quite few packages that are only relevant with certain filetypes —
+<a href="https://atom.io/packages/markdown-preview">markdown-preview</a>, <a href="https://atom.io/packages/asciidoc-preview">asciidoc-preview</a>, and <a href="https://atom.io/packages/emmet">Emmet</a> are examples of such
+packages.</p>
+
+<p>In any case, I&rsquo;ve switched back to Atom because I feel that it has sufficiently
+matured and the way the editor is designed allows for a level of extensibility
+that I think is essentially on par with Emacs, just without the harder to grasp
+and slightly funky Emacs Lisp (although I will admit I wish it was written in
+something <em>other</em> than JavaScript/CoffeeScript).</p>
+
+<p>Now, let&rsquo;s get into what I&rsquo;ve found to be useful and/or interesting Atom
+packages that during day-to-day programming.</p>
+
+<!-- Links for Intro -->
+
+<h1 id="linter">Linter</h1>
+
+<p><a href="https://atom.io/packages/linter">Linter</a> is one of the first packages most people will want to install, and for
+a good reason. Similar in functionality to <a href="http://www.flycheck.org/">Flycheck</a> for Emacs, <a href="https://github.com/scrooloose/syntastic">Syntastic</a> for
+Vim, and <a href="http://www.sublimelinter.com/">SublimeLinter</a> for Sublime Text, Linter is a package for automatically
+running static code analysis, style checkers, and linters on your code either as
+you type <em>or</em> on each save. It adds a live collection of errors at the bottom of
+the window as well as indicators in the gutter and popups containing the error
+message when relevant code is selected.</p>
+
+<p><img src="../../../../../img/atom-linter.png" alt="Linter Package" /></p>
+
+<!-- Links for Linter -->
+
+<h1 id="minimap">Minimap</h1>
+
+<p>The <a href="https://atom.io/packages/minimap">Minimap</a> package will be instantly recognisable to anyone who has used
+Sublime Text. It provides — as the name suggests — a zoomed out view of the
+current buffer. What makes the minimap package unique is the ability to extend
+it with extra features, such as
+<a href="https://atom.io/packages/minimap-cursorline">displaying the current line the cursor is at</a>,
+<a href="https://atom.io/packages/minimap-selection">displaying currently selected text</a>,
+<a href="https://atom.io/packages/minimap-linter">displaying linter information</a>, and
+<a href="https://atom.io/packages/minimap-git-diff">displaying Git diff information</a>.</p>
+
+<p><img src="../../../../../img/atom-minimap.png" alt="Minimap Package" /></p>
+
+<!-- Links for Minimap -->
+
+<h1 id="editorconfig">EditorConfig</h1>
+
+<p><a href="http://editorconfig.org/">EditorConfig</a> is incredibly useful for maintaining the same coding style across
+different editors and people. It&rsquo;s actually not only an Atom package, it is a
+file format <em>and</em> a collection of text editor plugins; in fact, if it was
+exclusive to Atom its usefulness would be hindered greatly.</p>
+
+<p>EditorConfig reads a <code>.editorconfig</code> file at your project&rsquo;s root, in which you
+define preferences such as the preferred EOL character, charset, indent size,
+etc.</p>
+
+<p>Here&rsquo;s an example:</p>
+
+<pre><code class="language-editorconfig">root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+insert_final_newline = true
+
+[*.rs]
+indent_size = 4
+
+[*.{md,toml}]
+indent_size = 2
+
+[.travis.yml]
+ident_size = 2
+</code></pre>
+
+<p>You can find the Atom package for it <a href="editorconfig-package">here</a>.</p>
+
+<!-- Links for EditorConfig -->
+
+<h1 id="project-manager">Project Manager</h1>
+
+<p><a href="https://atom.io/packages/project-manager">Project Manager</a> is incredibly simple and does exactly what the name implies —
+it manages your projects. Usage is fairly simple: open the command palette and
+search for &ldquo;project manager&rdquo;; from there you can save, edit, and list projects
+like you would expect.</p>
+
+<p><img src="../../../../../img/atom-project-manager.png" alt="Project Manager Package" /></p>
+
+<p>The list of projects are stored in a simple CSON file called <code>projects.cson</code>
+under <code>~/.atom</code> which looks like this:</p>
+
+<pre><code class="language-cson">bluepill:
+  title: &quot;Bluepill&quot;
+  paths: [
+    &quot;/home/shrike/Documents/Projects/bluepill&quot;
+  ]
+matrixpythonsdk:
+  title: &quot;Matrix Python SDK&quot;
+  paths: [
+    &quot;/home/shrike/Documents/Projects/matrix-python-sdk&quot;
+  ]
+tutil:
+  title: &quot;Tutil&quot;
+  paths: [
+    &quot;/home/shrike/Documents/Projects/tutil&quot;
+  ]
+</code></pre>
+
+<!-- Links for Project Manager -->
+
+<h1 id="todo-show">Todo Show</h1>
+
+<p>Another incredibly simple, but useful package is <a href="https://atom.io/packages/todo-show">Todo Show</a>. Put succinctly, it
+finds all &ldquo;TODO&rdquo;, &ldquo;FIXME&rdquo;, etc. comments in the currently open project and
+displays them in an overview list.</p>
+
+<p><img src="../../../../../img/atom-todo-show.png" alt="Todo Show Package" /></p>
+
+<!-- Links for Todo Show -->
+
+  </div>
+  <div id="disqus_thread"></div>
+</div>
+
+
+<script type="text/javascript">
+var disqus_shortname = "shrike";
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+
+
+
+<script type="text/javascript">
+    var disqus_shortname = "shrike";
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<script src="https://shrike.me/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
+
