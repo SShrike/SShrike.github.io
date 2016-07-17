@@ -23,8 +23,8 @@ away — has noticeably improved to the point where I don&amp;rsquo;t find it an
 the core text editing components have continued to mature.&lt;/p&gt;
 
 &lt;p&gt;There are still some things I miss about Emacs/&lt;a href=&#34;http://spacemacs.org/&#34;&gt;Spacemacs&lt;/a&gt; however, such as the
-mnemonic keybindings, &lt;a href=&#34;essentially a Vim emulation layer for Emacs&#34;&gt;evil&lt;/a&gt;,
-&lt;a href=&#34;although it is partially replaced by the command palette&#34;&gt;which-key&lt;/a&gt;, and the
+mnemonic keybindings, &lt;a href=&#34;https://bitbucket.org/lyro/evil/wiki/Home&#34;&gt;evil&lt;/a&gt; (essentially a Vim emulation layer for Emacs),
+&lt;a href=&#34;https://github.com/justbur/emacs-which-key&#34;&gt;which-key&lt;/a&gt; (although it is partially replaced by the command palette), and the
 ability to run it in a terminal. Also, keymaps are still fairly painful to deal
 with, with packages often overriding keybindings from either Atom core or other
 packages. In addition to this, there also still does not seem to be any way to
