@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>For Future Me on Shrike&#39;s Blog</title>
-    <link>https://shrike.me/categories/for-future-me/</link>
+    <link>//shrike.me/categories/for-future-me/</link>
     <description>Recent content in For Future Me on Shrike&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-nz</language>
     <lastBuildDate>Sun, 17 Jul 2016 03:32:29 +1200</lastBuildDate>
-    <atom:link href="https://shrike.me/categories/for-future-me/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//shrike.me/categories/for-future-me/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Some Atom Packages I Find Useful</title>
-      <link>https://shrike.me/blog/2016/07/17/some-atom-packages-i-find-useful/</link>
+      <link>//shrike.me/blog/2016/07/17/some-atom-packages-i-find-useful/</link>
       <pubDate>Sun, 17 Jul 2016 03:32:29 +1200</pubDate>
       
-      <guid>https://shrike.me/blog/2016/07/17/some-atom-packages-i-find-useful/</guid>
+      <guid>//shrike.me/blog/2016/07/17/some-atom-packages-i-find-useful/</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve switched back to using Atom after having switched to &lt;a href=&#34;http://spacemacs.org/&#34;&gt;Spacemacs&lt;/a&gt; around six

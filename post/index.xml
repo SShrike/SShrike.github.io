@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Shrike&#39;s Blog</title>
-    <link>https://shrike.me/post/</link>
+    <link>//shrike.me/post/</link>
     <description>Recent content in Posts on Shrike&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-nz</language>
     <lastBuildDate>Sun, 17 Jul 2016 03:32:29 +1200</lastBuildDate>
-    <atom:link href="https://shrike.me/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//shrike.me/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Some Atom Packages I Find Useful</title>
-      <link>https://shrike.me/blog/2016/07/17/some-atom-packages-i-find-useful/</link>
+      <link>//shrike.me/blog/2016/07/17/some-atom-packages-i-find-useful/</link>
       <pubDate>Sun, 17 Jul 2016 03:32:29 +1200</pubDate>
       
-      <guid>https://shrike.me/blog/2016/07/17/some-atom-packages-i-find-useful/</guid>
+      <guid>//shrike.me/blog/2016/07/17/some-atom-packages-i-find-useful/</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve switched back to using Atom after having switched to &lt;a href=&#34;http://spacemacs.org/&#34;&gt;Spacemacs&lt;/a&gt; around six
@@ -153,10 +153,10 @@ displays them in an overview list.&lt;/p&gt;
     
     <item>
       <title>Welcome</title>
-      <link>https://shrike.me/blog/2016/07/15/welcome/</link>
+      <link>//shrike.me/blog/2016/07/15/welcome/</link>
       <pubDate>Fri, 15 Jul 2016 10:16:00 +1200</pubDate>
       
-      <guid>https://shrike.me/blog/2016/07/15/welcome/</guid>
+      <guid>//shrike.me/blog/2016/07/15/welcome/</guid>
       <description>&lt;p&gt;&amp;ldquo;Hello world!&amp;rdquo; I suppose that&amp;rsquo;s how you&amp;rsquo;re supposed to open the first post on a
 programmer&amp;rsquo;s blog right?&lt;/p&gt;
 

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shrike&#39;s Blog</title>
-    <link>https://shrike.me/</link>
+    <link>//shrike.me/</link>
     <description>Recent content on Shrike&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-nz</language>
     <lastBuildDate>Sun, 17 Jul 2016 03:32:29 +1200</lastBuildDate>
-    <atom:link href="https://shrike.me/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//shrike.me/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Some Atom Packages I Find Useful</title>
-      <link>https://shrike.me/blog/2016/07/17/some-atom-packages-i-find-useful/</link>
+      <link>//shrike.me/blog/2016/07/17/some-atom-packages-i-find-useful/</link>
       <pubDate>Sun, 17 Jul 2016 03:32:29 +1200</pubDate>
       
-      <guid>https://shrike.me/blog/2016/07/17/some-atom-packages-i-find-useful/</guid>
+      <guid>//shrike.me/blog/2016/07/17/some-atom-packages-i-find-useful/</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve switched back to using Atom after having switched to &lt;a href=&#34;http://spacemacs.org/&#34;&gt;Spacemacs&lt;/a&gt; around six
@@ -153,10 +153,10 @@ displays them in an overview list.&lt;/p&gt;
     
     <item>
       <title>About Me</title>
-      <link>https://shrike.me/about/</link>
+      <link>//shrike.me/about/</link>
       <pubDate>Fri, 15 Jul 2016 10:32:47 +1200</pubDate>
       
-      <guid>https://shrike.me/about/</guid>
+      <guid>//shrike.me/about/</guid>
       <description>
 
 &lt;p&gt;The languages I tend to work with on a regular basis are &lt;a href=&#34;https://python.org/&#34;&gt;Python&lt;/a&gt; and &lt;a href=&#34;https://www.rust-lang.org/&#34;&gt;Rust&lt;/a&gt;.
@@ -209,10 +209,10 @@ notifications on my phone.&lt;/p&gt;
     
     <item>
       <title>License</title>
-      <link>https://shrike.me/license/</link>
+      <link>//shrike.me/license/</link>
       <pubDate>Fri, 15 Jul 2016 10:26:29 +1200</pubDate>
       
-      <guid>https://shrike.me/license/</guid>
+      <guid>//shrike.me/license/</guid>
       <description>
 
 &lt;h3 id=&#34;content-license&#34;&gt;Content License&lt;/h3&gt;
@@ -230,10 +230,10 @@ other words, this means do whatever the fuck you want with it!&lt;/p&gt;
     
     <item>
       <title>Welcome</title>
-      <link>https://shrike.me/blog/2016/07/15/welcome/</link>
+      <link>//shrike.me/blog/2016/07/15/welcome/</link>
       <pubDate>Fri, 15 Jul 2016 10:16:00 +1200</pubDate>
       
-      <guid>https://shrike.me/blog/2016/07/15/welcome/</guid>
+      <guid>//shrike.me/blog/2016/07/15/welcome/</guid>
       <description>&lt;p&gt;&amp;ldquo;Hello world!&amp;rdquo; I suppose that&amp;rsquo;s how you&amp;rsquo;re supposed to open the first post on a
 programmer&amp;rsquo;s blog right?&lt;/p&gt;
 
